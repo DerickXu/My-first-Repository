@@ -26,9 +26,9 @@ pipeline {
          }
       }
       stage('Test runing'){
-         when {
-            branch 'wishin'
-         }
+         //when {
+            //branch 'wishin'
+         //}
          steps {
            //sleep 15
            echo "runing test"
