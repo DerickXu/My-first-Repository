@@ -1,7 +1,7 @@
 pipeline {
    agent any
    environment {
-       BranchName="F2048"
+       BranchName="wishin"
    }
    stages {
       stage('Start build') {
@@ -27,11 +27,11 @@ pipeline {
       }
       stage('Test runing'){
          when {
-            branch 'F2048'
+            branch 'wishin'
          }
          steps {
            //sleep 15
-           echo "runing master"
+           echo "runing test"
          }
       }
       stage('Deploy ending') {
