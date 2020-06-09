@@ -24,7 +24,7 @@ pipeline {
            echo "runing master"
            sh "ls"
          }
-      //}
+      }
       stage('Test runing'){
          when {
             branch 'wishin'
