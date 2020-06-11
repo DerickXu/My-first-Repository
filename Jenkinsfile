@@ -31,7 +31,7 @@ pipeline {
          }
          steps {
            //sleep 15
-           echo "runing test"
+           echo "runing testing"
          }
       }
       stage('Deploy ending') {
