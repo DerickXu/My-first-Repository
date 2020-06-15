@@ -6,13 +6,13 @@ pipeline {
    stages {
       stage('Start build') {
          steps {
-            echo 'pwd is now!'
+            echo 'pwd is now111!'
             //sleep 360
             //sleep 15
             //dir('/var/jenkins_home/workspace') {
                //sh 'ps'
             //}
-            echo 'Build runing'
+            echo 'Build runing123'
             //sh "pwd"
          }
       }
