@@ -18,10 +18,10 @@ pipeline {
       }
       stage('Code review'){
          steps {
-           echo "This is Codeing......"
+           echo "This is Codeing......123"
            //sleep 30
            sh "pwd"
-           echo "runing master gogogo"
+           echo "runing master gogogo！！！！"
            sh "ls"
          }
       }
