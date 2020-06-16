@@ -35,7 +35,7 @@ pipeline {
          }
       }
       stage('Deploy ending') {
-         environment {Description="This is CHANGE1111!"}
+         environment {Description="This is CHANGE1111!！！！！！"}
          steps{
             script{
                if (env.GIT_BRANCH == 'origin/F2048'){
